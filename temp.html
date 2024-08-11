@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+    .container-fluid {
+      height: 60px;
+    }
+
+    .navbar {
+      background-color: #fff; /* Change this to white */
+      border-color: #e7e7e7; /* Optional: Change the border color to match the new background */
+    }
+
+    .navbar .navbar-brand, .navbar .navbar-nav > li > a {
+      color: #000; /* Change text color to black */
+    }
+
+    .navbar .navbar-brand:hover, .navbar .navbar-nav > li > a:hover {
+      color: #000; /* Ensure hover state text color is also black */
+    }
+
+    .logo-img {
+      height: 40px; /* Adjust this to make the logo smaller */
+    }
+    
+    .why-us-section {
+      margin-bottom: 20px;
+    }
+
+    .ecosystem-image {
+  width: 620px; /* Set the width to 620px */
+  height: 612px; /* Set the height to 612px */
+  object-fit: cover; /* Ensures the image maintains aspect ratio and fits the dimensions */
+}
+  </style>
+</head>
+<body style="height:1500px">
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">
+        <img class="logo-img" src="./logo.svg" alt="Zerodha logo">
+      </a>
+    </div>
+    <ul class="nav navbar-nav navbar-right">
+      <li class="active"><a href="#">Signup</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Products</a></li>
+      <li><a href="#">Pricing</a></li>
+      <li><a href="#">Products</a></li>
+    </ul>
+  </div>
+</nav>
+ 
+<div class="container" style="margin-top:50px">
+ 
+</div>
+<img class="img-responsive" src="./landing.png" alt="Chania">
+<div>
+    <h1 class="landing-heading text-center">Invest in everything</h1>
+    <h5 class="landing-subheading text-center">
+        Online platform to invest in stocks, derivatives, mutual funds, ETFs, bonds, and more.
+      </h5>
+      <div class="text-center">
+        <button type="button" class="btn btn-primary">Sign Up Now</button>
+      </div>
+</div>
+
+
+
+<section class="ecosystem">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-5">
+          <h2>Trust with confidence</h2>
+          <div class="why-us-section">
+            <h4>Customer-first always</h4>
+            <p>That's why 1.5+ crore customers trust Zerodha with ₹4.5+ lakh crores of equity investments and contribute to 15% of daily retail exchange volumes in India.</p>
+          </div>
+          <div class="why-us-section">
+            <h4>No spam or gimmicks</h4>
+            <p>No gimmicks, spam, "gamification", or annoying push notifications. High quality apps that you use at your pace, the way you like.</p>
+          </div>
+          <div class="why-us-section">
+            <h4>The Zerodha universe</h4>
+            <p>Not just an app, but a whole ecosystem. Our investments in 30+ fintech startups offer you tailored services specific to your needs.</p>
+          </div>
+          <div class="why-us-section">
+            <h4>Do better with money</h4>
+            <p>With initiatives like <a href="https://support.zerodha.com/category/trading-and-markets/kite-features/nudges/articles/what-is-nudge" target="_blank">Nudge</a> and <a href="https://support.zerodha.com/category/console/profile/killswitch/articles/what-is-the-kill-switch" target="_blank">Kill Switch</a>, we don't just facilitate transactions, but actively help you do better with your money.</p>
+          </div>
+        </div>
+        <div class="col-md-7 text-center">
+          <a href="/products">
+            <img src="./ecosystem.png" alt="The Zerodha Universe" class="ecosystem-image">
+          </a>
+          <p>
+            <a href="/products">Explore our products<i class="icon-arrow-right"></i></a>
+            <a class="demo-link" href="https://kite-demo.zerodha.com">Try Kite demo <i class="icon-arrow-right"></i></a>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="press-strip text-center">
+      <a href="/media"><img src="./press-logos.png" alt="Press logos"></a>
+    </div>
+  </section>
+
+
+  <section class="pricing">
+    <div class="container">
+      <div class="row v-align around">
+        <div class="columns five">
+          <h2>Unbeatable pricing</h2>
+          <p>
+            We pioneered the concept of discount broking and price transparency
+            in India. Flat fees and no hidden charges.
+          </p>
+        </div>
+        <div class="columns seven">
+          <div class="pricing-box">
+            <img src="./pricing-eq.svg" alt="">
+            <p>Free account<br>opening</p>
+          </div>
+          <div class="pricing-box">
+            <img src="/static/images/pricing-eq.svg" alt="">
+            <p>Free equity delivery<br>and direct mutual funds</p>
+          </div>
+          <div class="pricing-box">
+            <img src="/static/images/other-trades.svg" alt="">
+            <p>Intraday and<br>F&amp;O</p>
+          </div>
+        </div>
+      </div>
+      <p class="pricing-link">
+        <a href="/pricing">See pricing <i class="icon-arrow-right"></i></a>
+      </p>
+    </div>
+  </section>
+</body>
+</html>
